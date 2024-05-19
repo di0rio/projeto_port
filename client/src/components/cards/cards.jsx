@@ -1,4 +1,4 @@
-import style from "./Cards.module.css";
+import style from "./cards.module.css";
 
 const Cards = ({ banner, perf, nome, desc1, desc2, link, icon, link2, icon2, link3, icon3, link4, icon4}) => {
   return (
