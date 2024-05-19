@@ -1,5 +1,5 @@
-import Cards from "../components/cards/cards";
-import Title from "../components/title/title";
+import Cards from "../components/Cards/Cards";
+import Title from "../components/Title/title";
 import music from "../assets/music.mp3";
 
 import bannerLimit from "../assets/limit_banner.gif";
