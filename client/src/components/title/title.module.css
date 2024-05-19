@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Yuji+Boku&display=swap");
+
+:root {
+  --gradient: linear-gradient(to right, #fffbda, #ffec9e, #ffbb70, #ed9455);
+}
+
+.Title div {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .ratoTitle h1 {
+    background-image: var(--gradient);
+  
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  
+    font-family: "Yuji Boku", serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 3.7em;
+    margin-top: 1.2em;
+  }
