@@ -1,4 +1,4 @@
-import Cards from "../components/Cards/cards";
+import Cards from '../components/Cards/Cards.jsx';
 import Title from "../components/Title/title";
 import music from "../assets/music.mp3";
 
