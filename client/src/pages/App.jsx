@@ -1,4 +1,4 @@
-import Cards from "../components/Cards/cards.jsx"
+import Cards from "../components/Cards/cards.jsx";
 import Title from "../components/Title/title.jsx";
 import music from "../assets/music.mp3";
 
@@ -27,7 +27,7 @@ function App() {
           icon2={"logo-discord"}
           link3={"https://www.instagram.com/ygnsantos/"}
           icon3={"logo-instagram"}
-        />
+        ></Cards>
         <Cards
           banner={bannerDiorio}
           perf={perfDiorio}
@@ -42,7 +42,7 @@ function App() {
           icon3={"logo-instagram"}
           link4={"https://www.linkedin.com/in/cau%C3%A3-di%C3%B3rio-245013296/"}
           icon4={"logo-linkedin"}
-        />
+        ></Cards>
       </div>
     </>
   );
