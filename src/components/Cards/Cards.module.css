@@ -6,8 +6,9 @@
 }
 
 .Card {
-  width: 400px;
-  height: 320px;
+  width: 420px;
+  height: 340px;
+  margin-top: 7em;
   background-color: rgba(94, 69, 23, 0.5);
 
   border-radius: 28px;
@@ -21,7 +22,7 @@
 
 .Banner img {
   width: 100%;
-  height: 100px;
+  height: 107px;
   object-fit: cover;
 }
 
@@ -46,34 +47,34 @@
   background-color: #2f3136;
 }
 
-.Nome h3{
+.Nome h3 {
   color: white;
   font-size: 1.7em;
   padding-top: 0.2em;
   padding-left: 0.5em;
 }
 
-.Desc1 h5{
+.Desc1 h5 {
   color: #41454b;
   font-size: 1em;
   padding-top: 0.2em;
   padding-left: 1em;
 }
 
-.Sobre h2{
+.Sobre h2 {
   color: #41454b;
-  padding-top: 0.2em;
+  padding-top: -0.2em;
   padding-left: 0.7em;
 }
 
-.Sobre h5{
+.Sobre h5 {
   color: #fff;
   font-size: 1em;
   padding-top: 0.2em;
   padding-left: 1em;
 }
 
-.Links{
+.Links {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -81,9 +82,9 @@
   gap: 1em;
 }
 
-.Links ion-icon{
-  width: 26px;
-  height: 26px;
+.Links ion-icon {
+  width: 22px;
+  height: 22px;
   color: white;
 }
 
@@ -96,5 +97,177 @@
   }
   100% {
     box-shadow: 0 4px 8px rgba(#ed9455, #ed9455, #ed9455, 0.1);
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .Card {
+    width: 80%;
+    height: auto;
+  }
+
+  .Banner img {
+    height: 120px;
+    border-radius: 0.2em;
+  }
+
+  .Perfil {
+    margin-top: -3em;
+    margin-left: 0.3em;
+  }
+
+  .Perfil img {
+    width: 100px;
+    border-radius: 50%;
+  }
+
+  .Divisor {
+    width: 80%;
+  }
+
+  .Nome h3 {
+    font-size: 1.2em;
+  }
+
+  .Links {
+    flex-direction: column;
+    gap: 0.2em;
+  }
+
+  .Links ion-icon {
+    width: 16px;
+    height: 16px;
+  }
+
+  .Desc1 h5 {
+    font-size: 0.7em;
+    padding-top: 0.2em;
+    padding-left: 1.7em;
+  }
+
+  .Sobre h2 {
+    font-size: 1.2em;
+    padding-top: -0.1em;
+    padding-left: 0.7em;
+  }
+
+  .Sobre h5 {
+    font-size: 0.7em;
+    padding-top: 0.1em;
+    padding-left: 1.7em;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .Card {
+    width: 80%;
+    height: auto;
+  }
+
+  .Banner img {
+    height: 120px;
+    border-radius: 0.2em;
+  }
+
+  .Perfil {
+    margin-top: -3em;
+    margin-left: 0.3em;
+  }
+
+  .Perfil img {
+    width: 100px;
+    border-radius: 50%;
+  }
+
+  .Divisor {
+    width: 80%;
+  }
+
+  .Nome h3 {
+    font-size: 1.2em;
+  }
+
+  .Links {
+    flex-direction: column;
+    gap: 0.2em;
+  }
+
+  .Links ion-icon {
+    width: 16px;
+    height: 16px;
+  }
+
+  .Desc1 h5 {
+    font-size: 0.7em;
+    padding-top: 0.2em;
+    padding-left: 1.7em;
+  }
+
+  .Sobre h2 {
+    font-size: 1.2em;
+    padding-top: -0.1em;
+    padding-left: 0.7em;
+  }
+
+  .Sobre h5 {
+    font-size: 0.7em;
+    padding-top: 0.1em;
+    padding-left: 1.7em;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1720px){
+  .Card {
+    width: 410px;
+    height: 300px;
+  }
+
+  .Banner img {
+    height: 90px;
+  }
+
+  .Perfil {
+    margin-top: -3em;
+  }
+
+  .Perfil img {
+    width: 90;
+  }
+
+  .Divisor {
+    width: 368px;
+  }
+
+  .Nome h3 {
+    font-size: 1.2em;
+    margin-left: 0.5em;
+  }
+
+  .Links {
+    flex-direction: row;
+    gap: 0.8em;
+  }
+
+  .Links ion-icon {
+    width: 16px;
+    height: 16px;
+  }
+
+  .Desc1 h5 {
+    font-size: 0.7em;
+    padding-top: 0.2em;
+    padding-left: 1.7em;
+  }
+
+  .Sobre h2 {
+    font-size: 1.2em;
+    padding-top: -0.1em;
+    padding-left: 0.7em;
+  }
+
+  .Sobre h5 {
+    font-size: 0.7em;
+    padding-top: 0.1em;
+    padding-left: 1.7em;
   }
 }

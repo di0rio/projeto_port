@@ -21,6 +21,24 @@
     font-family: "Yuji Boku", serif;
     font-weight: 700;
     font-style: bold;
-    font-size: 3.7em;
-    margin-top: 1.2em;
+    font-size: 3.2em;
+    margin-top: 1em;
+  }
+
+  @media (max-width: 768px) {
+    .ratoTitle h1 {
+      font-size: 2.5em;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .ratoTitle h1 {
+      font-size: 3em;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .ratoTitle h1 {
+      font-size: 2em;
+    }
   }
